@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">BarBari</string>
+    <string name="welcome">welcome to BarBari, this app meant to help you to organize your free time with friend. we hope you enjoy, for problem BarBari@gmail.com</string>
+    <string name="login_quart">please enter your Username and Password \n</string>
+    <string name="eara1">if you dont have any \n
+        we recommend to creat one at the link below or enter as a guest</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="please_enter_your_password_here">Please enter your password here</string>
+    <string name="please_enter_your_username_here">Please enter your Username here</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_barbari">welcome to BarBari</string>
+    <string name="login">LogIn</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="get_in_as_a_guest">get in as a guest</string>
+    <string name="creat_user">creat user</string>
+
+    <string-array name="my_bar">
+        <item>bar1</item>
+        <item>bar2</item>
+        <item>bar3</item>
+        <item>bar4</item>
+        <item>bar5</item>
+        <item>bar6</item>
+        <item>bar7</item>
+        <item>bar8</item>
+        <item>bar9</item>
+        <item>bar10</item>
+        <item>bar11</item>
+        <item>bar12</item>
+        <item>bar13</item>
+        <item>bar14</item>
+        <item>bar15</item>
+        <item>bar16</item>
+        <item>bar17</item>
+        <item>bar18</item>
+    </string-array>
+
+    <string-array name="bar_des">
+        <item>bar1 descrrr</item>
+        <item>bar2 des</item>
+        <item>bar3 des</item>
+        <item>bar4 des</item>
+        <item>bar5 des</item>
+        <item>bar6 des</item>
+        <item>bar7 dess</item>
+        <item>bar8 des</item>
+        <item>bar9 des</item>
+        <item>bar10 des</item>
+        <item>bar11 des</item>
+        <item>bar12 des</item>
+        <item>bar13 des</item>
+        <item>bar14 des</item>
+        <item>bar15 des</item>
+        <item>bar16 des</item>
+        <item>bar17 des</item>
+        <item>bar18 desss</item>
+    </string-array>
+</resources>

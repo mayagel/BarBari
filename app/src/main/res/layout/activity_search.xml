@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_barbari"
+    android:background="@android:color/holo_orange_dark"
     tools:context="com.example.yagel.barbari.SearchActivity">
 
     <ListView
@@ -12,10 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@drawable/barbeer"
+        android:background="@android:color/holo_orange_dark"
         android:orientation="vertical"
         android:padding="20dp" />
-
 
 
 </LinearLayout>

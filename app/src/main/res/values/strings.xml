@@ -56,4 +56,51 @@
         <item>bar17 des</item>
         <item>bar18 desss</item>
     </string-array>
+
+    <string-array name="bar_place">
+        <item>ashdod</item>
+        <item>askelon</item>
+        <item>tel-aviv</item>
+        <item>ashdod</item>
+        <item>ashdod</item>
+        <item>ashdod</item>
+        <item>ashdod</item>
+        <item>ashdod</item>
+        <item>askelon</item>
+        <item>askelon</item>
+        <item>askelon</item>
+        <item>askelon</item>
+        <item>tel-aviv</item>
+        <item>tel-aviv</item>
+        <item>tel-aviv</item>
+        <item>tel-aviv</item>
+        <item>tel-aviv</item>
+        <item>tel-aviv</item>
+    </string-array>
+
+
+        <string-array name="bar_open_t">
+            <item>24/7</item>
+            <item>21:00-02:00</item>
+            <item>18:00-04:00</item>
+            <item>24/7</item>
+            <item>24/7</item>
+            <item>24/7</item>
+            <item>24/7</item>
+            <item>24/7</item>
+            <item>21:00-02:00</item>
+            <item>21:00-02:00</item>
+            <item>21:00-02:00</item>
+            <item>21:00-02:00</item>
+            <item>18:00-04:00</item>
+            <item>18:00-04:00</item>
+            <item>18:00-04:00</item>
+            <item>18:00-04:00</item>
+            <item>18:00-04:00</item>
+            <item>18:00-04:00</item>
+        </string-array>
+
+
+
+
 </resources>

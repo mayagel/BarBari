@@ -47,6 +47,11 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         search_bar.setOnItemClickListener(this);
     }
 
+    //search_bar- listview
+    //adapter   - ArrayAdapter<String>
+    //arrayBar  - ArrayList        כל הסטרינג נמצא בפנים
+    //search_bar זה כל הליסט ויוו
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater=getMenuInflater();

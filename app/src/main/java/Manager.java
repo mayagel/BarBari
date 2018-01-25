@@ -4,7 +4,7 @@
 
 public class Manager {
 
-    private static int no_of_manag=0;
+    protected static int no_of_manag=0;
     private int _id;
     private String _name;
     private String _pass;

@@ -5,7 +5,8 @@ import android.widget.Chronometer;
  */
 
 class Bar {
-    private static int _id;
+    private static int _no_of_bar=0;
+    private int _id;
     private String _name;
     private String _place;
     private String _descriotion;
@@ -13,6 +14,8 @@ class Bar {
     private Chronometer[] _the_costumers ;
 
     public Bar(String name, String place, String descriotion, String open_time, Chronometer[] the_costumer){
+        _no_of_bar++;
+        _id=_no_of_bar;
         _name=name;
         _place=place;
         _descriotion=descriotion;
@@ -20,6 +23,8 @@ class Bar {
         _the_costumers=the_costumer;
     }
     public Bar(String name, String place, String descriotion, String open_time){
+        _no_of_bar++;
+        _id=_no_of_bar;
         _name=name;
         _place=place;
         _descriotion=descriotion;

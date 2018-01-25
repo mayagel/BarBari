@@ -37,6 +37,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ManageBarActivity">
+            <intent-filter>
+                <action android:name="com.example.yagel.barbari.ManageBarActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

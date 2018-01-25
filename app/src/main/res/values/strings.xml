@@ -10,10 +10,11 @@
     <string name="please_enter_your_username_here">Please enter your Username here</string>
     <string name="todo">TODO</string>
     <string name="welcome_to_barbari">welcome to BarBari</string>
-    <string name="login">LogIn</string>
+    <string name="login">LogIn As\n Costumer</string>
     <string name="forgot_password">forgot password</string>
     <string name="get_in_as_a_guest">get in as a guest</string>
     <string name="creat_user">creat user</string>
+    <string name="manager_login_btn">LogIn as\n Bar Manager</string>
 
     <string-array name="my_bar">
         <item>bar1</item>
@@ -79,28 +80,26 @@
     </string-array>
 
 
-        <string-array name="bar_open_t">
-            <item>24/7</item>
-            <item>21:00-02:00</item>
-            <item>18:00-04:00</item>
-            <item>24/7</item>
-            <item>24/7</item>
-            <item>24/7</item>
-            <item>24/7</item>
-            <item>24/7</item>
-            <item>21:00-02:00</item>
-            <item>21:00-02:00</item>
-            <item>21:00-02:00</item>
-            <item>21:00-02:00</item>
-            <item>18:00-04:00</item>
-            <item>18:00-04:00</item>
-            <item>18:00-04:00</item>
-            <item>18:00-04:00</item>
-            <item>18:00-04:00</item>
-            <item>18:00-04:00</item>
-        </string-array>
-
-
+    <string-array name="bar_open_t">
+        <item>24/7</item>
+        <item>21:00-02:00</item>
+        <item>18:00-04:00</item>
+        <item>24/7</item>
+        <item>24/7</item>
+        <item>24/7</item>
+        <item>24/7</item>
+        <item>24/7</item>
+        <item>21:00-02:00</item>
+        <item>21:00-02:00</item>
+        <item>21:00-02:00</item>
+        <item>21:00-02:00</item>
+        <item>18:00-04:00</item>
+        <item>18:00-04:00</item>
+        <item>18:00-04:00</item>
+        <item>18:00-04:00</item>
+        <item>18:00-04:00</item>
+        <item>18:00-04:00</item>
+    </string-array>
 
 
 </resources>

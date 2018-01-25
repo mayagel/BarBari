@@ -4,13 +4,15 @@
 
 public class Manager {
 
-    private static int _id;
+    private static int no_of_manag=0;
+    private int _id;
     private String _name;
     private String _pass;
-    private static Bar _my_bar;
+    private Bar _my_bar;
 
-    public Manager(int id, String name, String pass, Bar my_bar){
-     _id=id;
+    public Manager( String name, String pass, Bar my_bar){
+        no_of_manag++;
+     _id=no_of_manag;
      _name=name;
      _pass=pass;
      _my_bar=my_bar;
@@ -20,15 +22,27 @@ public class Manager {
         return _name;
     }
 
-    public static Bar getMyBar() {
+    public Bar getMyBar() {
         return _my_bar;
     }
 
-    public static int getId() {
+    public int getId() {
         return _id;
     }
 
     public String getPass() {
         return _pass;
+    }
+
+    public void setName(String _name) {
+        this._name = _name;
+    }
+
+    public void setMyBar(Bar _my_bar) {
+        this._my_bar = _my_bar;
+    }
+
+    public void setPass(String _pass) {
+        this._pass = _pass;
     }
 }

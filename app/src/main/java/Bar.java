@@ -13,6 +13,16 @@ class Bar {
     private String _open_time;
     private Chronometer[] _the_costumers ;
 
+    public Bar(){
+        _no_of_bar++;
+        _id=_no_of_bar;
+        _name="";
+        _place="";
+        _descriotion="";
+        _open_time="";
+        _the_costumers="";
+    }
+
     public Bar(String name, String place, String descriotion, String open_time, Chronometer[] the_costumer){
         _no_of_bar++;
         _id=_no_of_bar;

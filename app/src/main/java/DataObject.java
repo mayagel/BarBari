@@ -14,6 +14,6 @@ class DataObject {
 
 
     nappo_bar= new Bar()
-    Nappo= new Manager()
+    Nappo= new Manager("Ben yshay", "Pass123");
 
 }

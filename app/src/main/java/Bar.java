@@ -1,4 +1,5 @@
 import android.widget.Chronometer;
+import android.widget.ImageView;
 
 /**
  * Created by Yagel on 23/01/2018.
@@ -11,7 +12,8 @@ class Bar {
     private String _place;
     private String _descriotion;
     private String _open_time;
-    private Chronometer[] _the_costumers ;
+    private Costumer[] _the_costumers ;
+    private ImageView _image_bar;
 
     public Bar(){
         _no_of_bar++;
@@ -20,10 +22,10 @@ class Bar {
         _place="";
         _descriotion="";
         _open_time="";
-        _the_costumers="";
+        _the_costumers=new Costumer[0];
     }
 
-    public Bar(String name, String place, String descriotion, String open_time, Chronometer[] the_costumer){
+    public Bar(String name, String place, String descriotion, String open_time, Costumer[] the_costumer){
         _no_of_bar++;
         _id=_no_of_bar;
         _name=name;
@@ -40,7 +42,7 @@ class Bar {
         _descriotion=descriotion;
         _open_time=open_time;
     }
-    public void setCostumersList(Chronometer[] the_costumer){
+    public void setCostumersList(Costumer[] the_costumer){
         _the_costumers=the_costumer;
     }
 
@@ -60,7 +62,7 @@ class Bar {
         this._open_time = _open_time;
     }
 
-    public static int getId() {
+    public int getId() {
         return _id;
     }
 }

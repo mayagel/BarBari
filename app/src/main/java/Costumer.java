@@ -8,6 +8,9 @@ class Costumer {
     private String _name;
     private String _place;
     private String _kod;
+    private String _email;
+
+
 
     public Costumer(String name, String place, String kod){
         _no_of_costumers++;

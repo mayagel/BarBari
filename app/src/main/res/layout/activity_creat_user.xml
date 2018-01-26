@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yagel.barbari.CreatUserActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="408dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:text="enter where you living"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:id="@+id/creat_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/username"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/username_et_c"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="@string/please_enter_your_username_here"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/creat_username"
+        app:layout_constraintStart_toEndOf="@+id/creat_username" />
+
+    <TextView
+        android:id="@+id/creat_pass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/pass"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/creat_username" />
+
+    <EditText
+        android:id="@+id/pass_et_c1"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="@string/please_enter_your_password_here"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/creat_pass1"
+        app:layout_constraintStart_toEndOf="@+id/creat_pass1" />
+
+    <TextView
+        android:id="@+id/creat_pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="confirm Password"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/creat_pass1" />
+
+    <EditText
+        android:id="@+id/pass_et_c2"
+        android:layout_width="140dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="enter password again"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/creat_pass2"
+        app:layout_constraintStart_toEndOf="@+id/creat_pass2" />
+
+    <TextView
+        android:id="@+id/creat_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="E-mail"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/creat_pass2" />
+
+    <EditText
+        android:id="@+id/e_mail_c"
+        android:layout_width="215dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="enter your mail"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/creat_email"
+        app:layout_constraintStart_toEndOf="@+id/creat_email" />
+
+    <TextView
+        android:id="@+id/creat_hometown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="HomeTown"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/creat_email" />
+
+    <EditText
+        android:id="@+id/hometown_c"
+        android:layout_width="184dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="enter where you living"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/creat_hometown"
+        app:layout_constraintStart_toEndOf="@+id/creat_hometown" />
+
+    <Button
+        android:id="@+id/creat_btm"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Creat Costumer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/creat_manager_btm"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Creat Manager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

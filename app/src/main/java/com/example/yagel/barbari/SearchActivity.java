@@ -45,12 +45,16 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         );
         search_bar.setAdapter(adapter);
         search_bar.setOnItemClickListener(this);
+
+
+
     }
 
     //search_bar- listview
     //adapter   - ArrayAdapter<String>
     //arrayBar  - ArrayList        כל הסטרינג נמצא בפנים
     //search_bar זה כל הליסט ויוו
+    //עשיתי סרצ באר כמו בעיצוב, יצרתי ארייבאר שאליו הוספתי את כל המחרוזות, יצרתי אדפטר שעשה רשימה מכל המחרוזות האלה בדף, הפכתי את הליסטויוו בדף למה שיש באדפטר
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -81,4 +85,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
                         Intent intent=new Intent(getApplicationContext(),TheBar.class);
                         startActivity(intent);
     }
+
+
+
 }

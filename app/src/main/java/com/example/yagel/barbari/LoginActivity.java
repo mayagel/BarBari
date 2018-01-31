@@ -28,8 +28,9 @@ public class LoginActivity extends AppCompatActivity {
     private static LoginButton login_button;
     private static CallbackManager callbackManager;
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+   protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
@@ -88,7 +89,7 @@ public class LoginActivity extends AppCompatActivity {
 
             @Override
             public void onError(FacebookException error) {
-                txt_status.setText("login Error\n");
+                txt_status.setText("login Error\n"+error.getMessage());
             }
         });
 
@@ -97,5 +98,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
+
     }
+
 }

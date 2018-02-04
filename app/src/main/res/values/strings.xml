@@ -16,7 +16,7 @@
     <string name="forgot_password">forgot password</string>
     <string name="get_in_as_a_guest">get in as a guest</string>
     <string name="creat_user">creat user</string>
-    <string name="manager_login_btn">LogIn as\n Bar Manager</string>
+    <string name="manager_login_btn">LogIn as\n Manager</string>
 
     <string-array name="my_bar">
         <item>bar1</item>

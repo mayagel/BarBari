@@ -56,5 +56,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <TextView
+        android:id="@+id/eara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show the kod to the barmen\n and your beer is on the way"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/the_kod" />
+
 
 </android.support.constraint.ConstraintLayout>

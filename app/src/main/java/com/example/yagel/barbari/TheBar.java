@@ -73,19 +73,7 @@ public static int the_kod;
                     }
             );
     }
-
-/*
-        ArrayList<String> arrayBar= new ArrayList<>();
-        arrayBar.addAll(Arrays.asList(getResources().getStringArray(R.array.bar_des)));
-
-        adapter=new ArrayAdapter<String>(
-                this,
-                android.R.layout.simple_list_item_1,
-                arrayBar
-        );
-        */
-
-    }
+}
 
 
 

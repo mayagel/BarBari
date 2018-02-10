@@ -10,24 +10,32 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="57dp"
-        android:layout_height="41dp"
-        android:layout_marginEnd="60dp"
-        android:contentDescription="@string/todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/beer2" />
+        app:srcCompat="@drawable/saar6" />
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="@string/welcome_to_barbari"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="BarBari"
+        android:textAlignment="center"
         android:textColor="#ffe100"
-        android:textSize="24sp"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:outlineProvider="none" />
+
 </android.support.constraint.ConstraintLayout>

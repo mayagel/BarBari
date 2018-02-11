@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="title_color" parent="android:Theme.DeviceDefault">
+        <item name="colorPrimary">@color/primary_material_dark_1</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_device_default_dark</item>
+        <item name="android:colorPrimary">@color/primary_device_default_dark</item>
+    </style>
+</resources>

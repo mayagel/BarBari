@@ -12,7 +12,7 @@
         android:layout_height="408dp"
         android:layout_marginBottom="24dp"
         android:background="@android:drawable/alert_light_frame"
-        android:text="enter where you living"
+        android:text="Enter your information"
         android:textColor="@android:color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -149,18 +149,9 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:text="Creat Costumer"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/creat_manager_btm"
-        style="@android:style/Widget.Button.Inset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="8dp"
-        android:text="Creat Manager"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>

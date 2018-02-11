@@ -131,7 +131,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="@string/forgot_password"
-        android:textColor="?attr/actionModeSplitBackground"
+        android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/creat_tv"

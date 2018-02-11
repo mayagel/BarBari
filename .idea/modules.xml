@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BarBari.iml" filepath="$PROJECT_DIR$/BarBari.iml" />
-      <module fileurl="file://C:\Users\Yagel\AndroidStudioProjects\BarBari\BarBari.iml" filepath="C:\Users\Yagel\AndroidStudioProjects\BarBari\BarBari.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Yagel\AndroidStudioProjects\BarBari\app\app.iml" filepath="C:\Users\Yagel\AndroidStudioProjects\BarBari\app\app.iml" />
     </modules>
   </component>
 </project>

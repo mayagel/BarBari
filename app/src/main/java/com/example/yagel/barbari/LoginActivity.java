@@ -35,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
         clickGuestListener();
+        clickForgotPass();
         initializeControls();
         loginWithFacebook();
     }
@@ -99,6 +100,15 @@ public class LoginActivity extends AppCompatActivity {
         callbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
 
+    }
+
+    public void clickForgotPass(){
+        forget_tv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, Pop.class));
+            }
+        });
     }
 
 }

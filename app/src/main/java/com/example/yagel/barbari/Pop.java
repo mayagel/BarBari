@@ -18,5 +18,13 @@ class Pop extends Activity {
         setContentView(R.layout.popwindow);
 
         DisplayMetrics dm=new DisplayMetrics();
+
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+
+        int width=dm.widthPixels;
+        int height=dm.heightPixels;
+
+        getWindow().setLayout((int)(width*.9),(int)(height*.3));
+
     }
 }

@@ -28,4 +28,8 @@
     <string name="enter_your_e_mail">הכנס כתובת אי-מייל</string>
     <string name="name_gmail_com">name@Gmail.com</string>
     <string name="send_me_my_password">שלח אליי ססמא</string>
+    <string name="buy_chip_beer">הזמן הפי האוור</string>
+    <string name="your_kod">הקוד הוא:</string>
+    <string name="ok_shut_down_the_phon_nenjoy_your_beer">"טוב, יאללה כבה את הפלאפון, תהנה מהביר "</string>
+    <string name="show_the_kod_to_the_barmen_n_and_your_beer_is_on_the_way">תראה את הקוד לברמן והבירה בדרך אלייך</string>
 </resources>

@@ -28,6 +28,10 @@
     <string name="enter_your_e_mail">Enter Your E-Mail</string>
     <string name="name_gmail_com">name@Gmail.com</string>
     <string name="send_me_my_password">Send me my password</string>
+    <string name="buy_chip_beer">buy happy hour beer</string>
+    <string name="your_kod">your Kod:</string>
+    <string name="ok_shut_down_the_phon_nenjoy_your_beer">ok, shut down the phon  enjoy your beer:)</string>
+    <string name="show_the_kod_to_the_barmen_n_and_your_beer_is_on_the_way">show the kod to the barmen  and your beer is on the way</string>
 
     <string-array name="my_bar">
         <item>bar1</item>

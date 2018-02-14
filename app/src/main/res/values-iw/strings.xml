@@ -17,4 +17,15 @@
     <string name="get_in_as_a_guest">הכנס כאורח</string>
     <string name="creat_user">צור משתמש</string>
     <string name="manager_login_btn">הכנס\n כמנהל</string>
+    <string name="enter_your_information">הכנס פרטים</string>
+    <string name="confirm_password">וודא ססמא</string>
+    <string name="enter_password_again">הכנס ססמא שוב</string>
+    <string name="e_mail">אי-מייל</string>
+    <string name="enter_your_mail">הכנס כתובת אי-מייל</string>
+    <string name="hometown">עיר</string>
+    <string name="enter_where_you_living">הכנס את העיר בה אתה גר</string>
+    <string name="creat_costumer">צור משתמש</string>
+    <string name="enter_your_e_mail">הכנס כתובת אי-מייל</string>
+    <string name="name_gmail_com">name@Gmail.com</string>
+    <string name="send_me_my_password">שלח אליי ססמא</string>
 </resources>

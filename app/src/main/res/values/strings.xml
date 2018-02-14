@@ -17,6 +17,17 @@
     <string name="get_in_as_a_guest">get in as a guest</string>
     <string name="creat_user">creat user</string>
     <string name="manager_login_btn">LogIn as\n Manager</string>
+    <string name="enter_your_information">Enter your information</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="enter_password_again">enter password again</string>
+    <string name="e_mail">E-mail</string>
+    <string name="enter_your_mail">enter your mail</string>
+    <string name="hometown">HomeTown</string>
+    <string name="enter_where_you_living">enter where you living</string>
+    <string name="creat_costumer">Creat Costumer</string>
+    <string name="enter_your_e_mail">Enter Your E-Mail</string>
+    <string name="name_gmail_com">name@Gmail.com</string>
+    <string name="send_me_my_password">Send me my password</string>
 
     <string-array name="my_bar">
         <item>bar1</item>

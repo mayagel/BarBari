@@ -11,7 +11,7 @@
         android:layout_above="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:text="Enter Your E-Mail"
+        android:text="@string/enter_your_e_mail"
         android:textSize="30sp" />
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
-        android:hint="name@Gmail.com"
+        android:hint="@string/name_gmail_com"
         android:inputType="textPersonName"
         android:textSize="30sp" />
 
@@ -32,6 +32,6 @@
         android:layout_below="@+id/editText"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
-        android:text="Send me my password" />
+        android:text="@string/send_me_my_password" />
 
 </RelativeLayout>

@@ -16,4 +16,5 @@
     <string name="forgot_password">שחכתי ססמא</string>
     <string name="get_in_as_a_guest">הכנס כאורח</string>
     <string name="creat_user">צור משתמש</string>
+    <string name="manager_login_btn">הכנס\\n כמנהל</string>
 </resources>

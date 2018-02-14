@@ -4,17 +4,17 @@
     <string name="facebook_app_id">2021611001386227</string>
     <string name="fb_login_protocol_scheme">fb2021611001386227</string>
     <string name="welcome">ברוך הבא לבארברי, אפליקציה זו נועדה לעזור לך לארגן את זמנך הפנוי עם חברייך. לכל שאלה במייל BarBari@gmail.com</string>
-    <string name="login_quart">אנא הכנס את שם המשתמש והססמא\\n</string>
-    <string name="eara1">אם אין לך,\\n אנו ממליצים לצור אחד בכפתור בתחתית הדף, או שתכנס כאורח</string>
+    <string name="login_quart">אנא הכנס את שם המשתמש והססמא\n</string>
+    <string name="eara1">אם אין לך,\n אנו ממליצים לצור אחד בכפתור בתחתית הדף, או שתכנס כאורח</string>
     <string name="username">שם משתמש</string>
     <string name="pass">ססמא</string>
     <string name="please_enter_your_password_here">אנא הכנס את ססמתך כאן</string>
     <string name="please_enter_your_username_here">נא הכנס את שם המשתמש</string>
     <string name="todo">TODO</string>
     <string name="welcome_to_barbari">ברוך הבא לBarBari</string>
-    <string name="login">הכנס\\n כמשתמש</string>
+    <string name="login">הכנס\n כמשתמש</string>
     <string name="forgot_password">שחכתי ססמא</string>
     <string name="get_in_as_a_guest">הכנס כאורח</string>
     <string name="creat_user">צור משתמש</string>
-    <string name="manager_login_btn">הכנס\\n כמנהל</string>
+    <string name="manager_login_btn">הכנס\n כמנהל</string>
 </resources>

@@ -9,16 +9,17 @@ import com.example.yagel.barbari.OrderTable;
 
 /**
  * Created by Yagel on 23/01/2018.
+ * the class that represent the pattern of SQLite table for manager
  */
 
 public class Manager extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="manager.db";
-    public static final String TABLE_NAME="manager_table";
-    public static final String COL_1="ID";
-    public static final String COL_2="NAME";
-    public static final String COL_3="PASSWORD";
-    public static final String COL_4="MY_BAR";
-    public static final String COL_5="ORDER_TABLE";
+    public static final String DATABASE_NAME="manager.db";//the name of the database that the SQLite get into
+    public static final String TABLE_NAME="manager_table";//the name of the SQLite table
+    public static final String COL_1="ID";//the ID of each manager (fill automatically)
+    public static final String COL_2="NAME";//the name of the manager (userName)
+    public static final String COL_3="PASSWORD";//the password of the manager
+    public static final String COL_4="MY_BAR";//the bar the manager own
+    public static final String COL_5="ORDER_TABLE";//the order table that belong to the bar that own the manager
 
 
     public Manager(Context context){

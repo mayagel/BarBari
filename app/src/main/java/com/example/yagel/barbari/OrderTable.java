@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by Yagel on 26/01/2018.
+ * the class that represent the pattern
  */
 
 class OrderTable extends SQLiteOpenHelper {

@@ -15,6 +15,9 @@ import java.util.Random;
 public class TheBar extends AppCompatActivity {
 
 
+    OrderTable order_table;
+
+
 private static TextView bar_name1;
 private static TextView bar_des;
 private static TextView bar_p_t;
@@ -35,6 +38,7 @@ public static int the_kod;
         setContentView(R.layout.activity_the_bar);
         showBar();
         btmClickListener();
+        order_table=new OrderTable(this);
     }
     public void showBar() {
         bar_name1 = (TextView) findViewById(R.id.bar_name);

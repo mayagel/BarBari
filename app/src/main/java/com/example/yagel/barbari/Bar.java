@@ -8,55 +8,29 @@ import android.widget.ImageView;
 
 /**
  * Created by Yagel on 23/01/2018.
+ * this is class that represent the SQLite of all Bar's
+ * that sign in to the app
  */
 
 class Bar extends SQLiteOpenHelper {
+//the database and table name
     public static final String DATABASE_NAME="bar.db";
     public static final String TABLE_NAME="bar_table";
-    public static final String COL_1="ID";
-    public static final String COL_2="NAME";
-    public static final String COL_3="PLACE";
-    public static final String COL_4="DESCRIPTION";
-    public static final String COL_5="OPEN_TIME";
-    public static final String COL_6="THE_COSTUMERS";
-    public static final String COL_7="IMAGE_BAR";
+    //all the column at the SQlite name
+    public static final String COL_1="ID";//aoutomaticlly arrenge as 1,2,3.. for each bar.
+    public static final String COL_2="NAME";//the name of the bar
+    public static final String COL_3="PLACE";//where the bar location is.
+    public static final String COL_4="DESCRIPTION";//a litle brief on the bar. the menthalic atmosphere the music, the type of chair and people, etc...
+    public static final String COL_5="OPEN_TIME";//when the bar is open. from-X till-Y.
+    public static final String COL_6="THE_COSTUMERS";//will be a group of costumer kod that each kod represent costumer.
+    public static final String COL_7="IMAGE_BAR"; //the logo image of the bar
 
-    private static int _no_of_bar=0;
-    private int _id;
-    private String _name;
-    private String _place;
-    private String _descriotion;
-    private String _open_time;
-    private Costumer[] _the_costumers ;
-    private ImageView _image_bar;
-
+/*
+this function takes the context and create SQLite table from it
+ */
     public Bar(Context context){
         super(context, DATABASE_NAME,null, 1);
 
-    }
-
-    public void setCostumersList(Costumer[] the_costumer){
-        _the_costumers=the_costumer;
-    }
-
-    public void setPlace(String _place) {
-        this._place = _place;
-    }
-
-    public void setName(String _name) {
-        this._name = _name;
-    }
-
-    public void setDescriotion(String _descriotion) {
-        this._descriotion = _descriotion;
-    }
-
-    public void setOpenTime(String _open_time) {
-        this._open_time = _open_time;
-    }
-
-    public int getId() {
-        return _id;
     }
 
     @Override

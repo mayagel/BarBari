@@ -17,13 +17,16 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
+/**
+ * to login or get as guest or create user or forget password
+ */
 public class LoginActivity extends AppCompatActivity {
-    private static EditText pass_et, username_et;
-    private static Button login_btm;
-    private static TextView forget_tv, creat_tv, guest_tv;
+    private static EditText pass_et, username_et;//the password and username to fill for login
+    private static Button login_btm;//the button to click on for login
+    private static TextView forget_tv, creat_tv, guest_tv;//the textview to click on for get as guest or create user or forget password
 
     //for facebook login
-    private static TextView txt_status;
+    private static TextView txt_status;//the text that change according to the facebook login status
     private TextView info;
     private static LoginButton login_button;
     private static CallbackManager callbackManager;
@@ -40,6 +43,9 @@ public class LoginActivity extends AppCompatActivity {
         loginWithFacebook();
     }
 
+    /*
+    the function when the get as geust clicked
+     */
     public void clickGuestListener() {
         pass_et = (EditText) findViewById(R.id.pass_et);
         username_et = (EditText) findViewById(R.id.username_et);
@@ -67,7 +73,9 @@ public class LoginActivity extends AppCompatActivity {
                 }
         );
     }
-
+    /*
+    all below for facebook login
+     */
     private void initializeControls() {
         callbackManager = CallbackManager.Factory.create();
         txt_status = (TextView) findViewById(R.id.txt_status);

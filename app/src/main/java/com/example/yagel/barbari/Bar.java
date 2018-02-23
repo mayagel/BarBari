@@ -14,7 +14,7 @@ import android.widget.ImageView;
 
 class Bar extends SQLiteOpenHelper {
 //the database and table name
-    public static final String DATABASE_NAME="bar.db";
+    public static final String DATABASE_NAME="barari.db";
     public static final String TABLE_NAME="bar_table";
     //all the column at the SQlite name
     public static final String COL_1="ID";//aoutomaticlly arrenge as 1,2,3.. for each bar.

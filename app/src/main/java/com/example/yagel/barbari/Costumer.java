@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 
 class Costumer extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="costumer.db";//the name of the dataBase that include the costumer variable
+    public static final String DATABASE_NAME="barbari.db";//the name of the dataBase that include the costumer variable
     public static final String TABLE_NAME="costumer_table";//the table name that include the costumer variable
     public static final String COL_1="ID";//the id number of each costumer (fill automatically)
     public static final String COL_2="NAME";//the name of costumer

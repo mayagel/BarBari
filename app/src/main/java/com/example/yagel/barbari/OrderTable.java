@@ -11,15 +11,11 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 
 class OrderTable extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="order.db";
+    public static final String DATABASE_NAME="babari.db";
     public static final String TABLE_NAME="order_table";
     public static final String COL_1="ID";
     public static final String COL_2="KOD";
     public static final String COL_3="COSTUMER";
-
-    private int _id;
-    private String _kod;
-    private Costumer _costumer;
 
     /*
 this function takes the context and create SQLite table from it

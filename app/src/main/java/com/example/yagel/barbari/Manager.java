@@ -13,7 +13,7 @@ import com.example.yagel.barbari.OrderTable;
  */
 
 public class Manager extends SQLiteOpenHelper {
-    public static final String DATABASE_NAME="manager.db";//the name of the database that the SQLite get into
+    public static final String DATABASE_NAME="babari.db";//the name of the database that the SQLite get into
     public static final String TABLE_NAME="manager_table";//the name of the SQLite table
     public static final String COL_1="ID";//the ID of each manager (fill automatically)
     public static final String COL_2="NAME";//the name of the manager (userName)

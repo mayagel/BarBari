@@ -15,7 +15,8 @@ class OrderTable extends SQLiteOpenHelper {
     public static final String TABLE_NAME="order_table";
     public static final String COL_1="ID";
     public static final String COL_2="KOD";
-    public static final String COL_3="COSTUMER";
+    public static final String COL_3="COSTUMER_ID";
+    public static final String COL_4="BAR_ID";
 
     /*
 this function takes the context and create SQLite table from it

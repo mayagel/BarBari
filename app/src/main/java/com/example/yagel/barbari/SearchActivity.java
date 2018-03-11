@@ -1,6 +1,5 @@
 package com.example.yagel.barbari;
 
-import android.Manifest;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -16,7 +14,6 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -82,7 +79,7 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         bar_name=tv.getText().toString();
         index_bar=position;
         Toast.makeText(this, "open "+tv.getText(), Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(getApplicationContext(),TheBar.class);
+                        Intent intent=new Intent(getApplicationContext(),TheBarActivity.class);
                         startActivity(intent);
     }
 

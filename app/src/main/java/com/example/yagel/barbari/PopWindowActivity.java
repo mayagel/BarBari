@@ -9,7 +9,7 @@ import android.util.DisplayMetrics;
  * Created by Yagel on 12/02/2018.
  */
 
-class Pop extends Activity {
+class PopWindowActivity extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

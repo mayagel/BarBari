@@ -2,11 +2,10 @@ package com.example.yagel.barbari;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-public class YourKod extends AppCompatActivity {
+public class YourKodActivity extends AppCompatActivity {
 
     private TextView the_kod;
     private TextView the_end;
@@ -20,7 +19,7 @@ public class YourKod extends AppCompatActivity {
     }
     public void theKod(){
         the_kod=(TextView) findViewById(R.id.the_kod);
-        the_kod.setText(String.valueOf(TheBar.the_kod));
+        the_kod.setText(String.valueOf(TheBarActivity.the_kod));
     }
 
 
@@ -30,7 +29,7 @@ public class YourKod extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        YourKod.this.moveTaskToBack(true);
+                        YourKodActivity.this.moveTaskToBack(true);
                     }
                 }
         );

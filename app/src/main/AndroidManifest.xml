@@ -32,7 +32,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".TheBar">
+        <activity android:name=".TheBarActivity">
             <intent-filter>
                 <action android:name="com.example.yagel.barbari.TheBar" />
 
@@ -70,7 +70,7 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".YourKod">
+        <activity android:name=".YourKodActivity">
             <intent-filter>
                 <action android:name="com.example.yagel.barbari.CreatUserActivity" />
 
@@ -78,7 +78,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Pop"
+            android:name=".PopWindowActivity"
             android:theme="@style/AppTheme.CustomTheme"
             ></activity>
     </application>

@@ -12,7 +12,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 
-public class TheBar extends AppCompatActivity {
+public class TheBarActivity extends AppCompatActivity {
 
 
     OrderTable order_table;
@@ -70,8 +70,8 @@ public static int the_kod;
                         public void onClick(View view) {
                             rand=new Random();
                             the_kod=rand.nextInt(9999999)+1;
-                            Toast.makeText(TheBar.this,"Your kod is "+String.valueOf(the_kod),Toast.LENGTH_LONG).show();
-                            Intent intent=new Intent(getApplicationContext(), YourKod.class);
+                            Toast.makeText(TheBarActivity.this,"Your kod is "+String.valueOf(the_kod),Toast.LENGTH_LONG).show();
+                            Intent intent=new Intent(getApplicationContext(), YourKodActivity.class);
                             startActivity(intent);
                         }
                     }

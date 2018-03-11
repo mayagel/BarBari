@@ -22,7 +22,7 @@ class Bar extends SQLiteOpenHelper {
     public static final String COL_3="PLACE";//where the bar location is.
     public static final String COL_4="DESCRIPTION";//a litle brief on the bar. the menthalic atmosphere the music, the type of chair and people, etc...
     public static final String COL_5="OPEN_TIME";//when the bar is open. from-X till-Y.
-    public static final String COL_7="IMAGE_BAR"; //the logo image of the bar
+    public static final String COL_6="IMAGE_BAR"; //the logo image of the bar
 
 /*
 this function takes the context and create SQLite table from it

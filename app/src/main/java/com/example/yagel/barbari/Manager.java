@@ -18,9 +18,7 @@ public class Manager extends SQLiteOpenHelper {
     public static final String COL_1="ID";//the ID of each manager (fill automatically)
     public static final String COL_2="NAME";//the name of the manager (userName)
     public static final String COL_3="PASSWORD";//the password of the manager
-    public static final String COL_4="MY_BAR";//the bar the manager own
-    public static final String COL_5="ORDER_TABLE";//the order table that belong to the bar that own the manager
-
+    public static final String COL_4="BAR_ID";//the bar the manager own
 
     public Manager(Context context){
         super(context, DATABASE_NAME,null,1);

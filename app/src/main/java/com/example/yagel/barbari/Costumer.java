@@ -18,6 +18,8 @@ class Costumer extends SQLiteOpenHelper {
     public static final String COL_4="PLACE";//when the costumer live
     public static final String COL_5="KOD";//the kod of the costumer when he click the happyHour button
     public static final String COL_6="E-MAIL";//the email of the costumer
+    public static final String COL_6="BAR_ID";//the id of the bar that this costumer in right now if he dont in bar it will be null
+
 
 
 

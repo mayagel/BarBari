@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -20,6 +21,9 @@ import com.facebook.login.widget.LoginButton;
  * to login or get as guest or create user or forget password
  */
 public class LoginActivity extends AppCompatActivity {
+
+    private static Button manager_btm;
+
     private static EditText pass_et, username_et;//the password and username to fill for login
     private static Button login_btm;//the button to click on for login
     private static TextView forget_tv, creat_tv, guest_tv;//the textview to click on for get as guest or create user or forget password
@@ -52,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
         forget_tv = (TextView) findViewById(R.id.forget_tv);
         creat_tv = (TextView) findViewById(R.id.creat_tv);
         guest_tv = (TextView) findViewById(R.id.guest_tv);
+        manager_btm= (Button) findViewById(R.id.manager_btm);
 
         guest_tv.setOnClickListener(
                 new View.OnClickListener() {
@@ -67,6 +72,29 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(getApplicationContext(), CreatUserActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+        login_btm.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (username_et.getText().toString()=="yagel" && pass_et.getText().toString()=="123456"){
+                            Toast.makeText(getApplicationContext(), "wellcome "+username_et.getText()+" you can now manage your bar in buttom below", Toast.LENGTH_SHORT).show();
+                            manager_btm.setVisibility(view.VISIBLE);
+                        }
+                        else
+                            Toast.makeText(getApplicationContext(), "sorry but the username or password are not found ", Toast.LENGTH_SHORT).show();
+
+                    }
+                }
+        );
+        manager_btm.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getApplicationContext(), ManageBarActivity.class);
                         startActivity(intent);
                     }
                 }

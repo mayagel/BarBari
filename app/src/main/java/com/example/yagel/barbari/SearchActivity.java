@@ -79,8 +79,8 @@ public class SearchActivity extends AppCompatActivity implements AdapterView.OnI
         bar_name=tv.getText().toString();
         index_bar=position;
         Toast.makeText(this, "open "+tv.getText(), Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(getApplicationContext(),TheBarActivity.class);
-                        startActivity(intent);
+        Intent intent=new Intent(getApplicationContext(),TheBarActivity.class);
+        startActivity(intent);
     }
 
 

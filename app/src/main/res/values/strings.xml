@@ -32,6 +32,12 @@
     <string name="your_kod">your Kod:</string>
     <string name="ok_shut_down_the_phon_nenjoy_your_beer">ok, shut down the phon  enjoy your beer:)</string>
     <string name="show_the_kod_to_the_barmen_n_and_your_beer_is_on_the_way">show the kod to the barmen  and your beer is on the way</string>
+    <string name="title">enter your title bar</string>
+    <string name="titlebar">title</string>
+    <string name="des_bar">enter the description of your bar</string>
+    <string name="description_bar">description</string>
+    <string name="im_bar_up">upload an image of your bar</string>
+    <string name="upload_b">upload image</string>
 
     <string-array name="my_bar">
         <item>bar1</item>

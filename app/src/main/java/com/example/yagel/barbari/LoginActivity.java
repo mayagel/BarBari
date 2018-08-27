@@ -20,7 +20,7 @@ import com.facebook.login.widget.LoginButton;
 /**
  * to login or get as guest or create user or forget password
  */
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static Button manager_btm;
 
@@ -46,9 +46,11 @@ public class LoginActivity extends AppCompatActivity {
         loginWithFacebook();
     }
 
+
+
     /*
-    the function when the get as geust clicked
-     */
+        the function when the get as geust clicked
+         */
     public void clickGuestListener() {
         pass_et = (EditText) findViewById(R.id.pass_et);
         username_et = (EditText) findViewById(R.id.username_et);
@@ -58,12 +60,20 @@ public class LoginActivity extends AppCompatActivity {
         guest_tv = (TextView) findViewById(R.id.guest_tv);
         manager_btm= (Button) findViewById(R.id.manager_btm);
 
+        guest_tv.setOnClickListener(this);
+        creat_tv.setOnClickListener(this);
+        login_btm.setOnClickListener(this);
+        manager_btm.setOnClickListener(this);
+
+
+
+        /**
         guest_tv.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent2 = new Intent(getApplicationContext(), SearchActivity.class);
-                        startActivity(intent2);
+                        Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+                        startActivity(intent);
                     }
                 }
         );
@@ -80,7 +90,7 @@ public class LoginActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if (username_et.getText().toString()=="yagel" && pass_et.getText().toString()=="123456"){
+                        if (username_et.getText().toString().trim()=="yagel" && pass_et.getText().toString().trim()=="123456"){
                             Toast.makeText(getApplicationContext(), "wellcome "+username_et.getText()+" you can now manage your bar in buttom below", Toast.LENGTH_SHORT).show();
                             manager_btm.setVisibility(view.VISIBLE);
                         }
@@ -98,7 +108,7 @@ public class LoginActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                 }
-        );
+        );*/
     }
     /*
     all below for facebook login
@@ -145,6 +155,34 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.guest_tv:
+                Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.creat_tv:
+                Intent intent2 = new Intent(getApplicationContext(), CreatUserActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.login_btm:
+                if (username_et.getText().toString().trim().equals("yagel") && pass_et.getText().toString().trim().equals("123456")) {
+                    Toast.makeText(getApplicationContext(), "wellcome " + username_et.getText() + " you can now manage your bar in buttom below", Toast.LENGTH_SHORT).show();
+                    manager_btm.setVisibility(view.VISIBLE);
+                }
+                else
+                    Toast.makeText(getApplicationContext(), "sorry but the username or password are not found ", Toast.LENGTH_SHORT).show();
+
+                break;
+            case R.id.manager_btm:
+                Intent intent3 = new Intent(getApplicationContext(), ManageBarActivity.class);
+                startActivity(intent3);
+                break;
+        }
+
     }
 
 }

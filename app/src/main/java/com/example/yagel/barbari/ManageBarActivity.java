@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 /**
  * the page for the manager bar to manage his bar
@@ -18,7 +19,7 @@ public class ManageBarActivity extends AppCompatActivity implements View.OnClick
     private static final int RESULT_LOAD_IMAGE=1;
 
     EditText in_des, in_title;
-    Button b_up_im;
+    Button updat_info;
     ImageView bar_pic;
 
 
@@ -30,10 +31,10 @@ public class ManageBarActivity extends AppCompatActivity implements View.OnClick
 
         in_des=(EditText) findViewById(R.id.in_des);
         in_title=(EditText) findViewById(R.id.in_title);
-        b_up_im=(Button) findViewById(R.id.b_up_im);
+        updat_info=(Button) findViewById(R.id.b_up_im);
         bar_pic=(ImageView) findViewById(R.id.bar_pic);
 
-        b_up_im.setOnClickListener(this);
+        updat_info.setOnClickListener(this);
         bar_pic.setOnClickListener(this);
 
     }
@@ -43,6 +44,14 @@ public class ManageBarActivity extends AppCompatActivity implements View.OnClick
         switch (view.getId()){
 
             case R.id.b_up_im:
+                if(in_des.getText().toString().trim().equals("")||in_title.getText().toString().trim().equals("")||bar_pic.getDrawable()==null){
+                    Toast.makeText(getApplicationContext(), "some information is empty ", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), "your data is update, passin you to home page ", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(intent);
+                }
 
                 break;
 
